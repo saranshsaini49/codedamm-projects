@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="app.js" type="module" defer></script>
+  </head>
+  <body>
+    <!-- start writing your code -->
+    <main class="container center">
+      <header class="header center">
+        <h1>add todo list</h1>
+        <span class="underline"></span>
+      </header>
+      <!-----input-------->
+      <section class="input-todo">
+        <input type="text" placeholder="Add Task" id="inputTag-todo" />
+        <button class="btn add-btn">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <button class="btn delete-btn" id="clear-input">
+          <i class="fa fa-trash" aria-hidden="true"></i>
+        </button>
+      </section>
+      <!---------display todo items-->
+      <section class="todos">
+        <!----hard code-->
+      </section>
+    </main>
+  </body>
+</html>
