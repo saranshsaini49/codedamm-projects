@@ -1,5 +1,12 @@
+import AddTodo from "./components/AddTodo";
+import Header from "./components/Header";
 function App() {
-  return <h1>hello world</h1>;
+  return (
+    <>
+      <Header />
+      <AddTodo />
+    </>
+  );
 }
 
 export default App;
